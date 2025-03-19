@@ -1,7 +1,7 @@
 import React from 'react';
 import reactLogo from "./assets/react.svg";
 
-function Header(props) {
+function MarkdownHeader(props) {
     return (
         <header className="header">
             <img className="header-img" src={reactLogo} alt="React Logo"/>
@@ -16,4 +16,4 @@ function Header(props) {
     );
 }
 
-export default Header;
+export default MarkdownHeader;

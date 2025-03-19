@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer(props) {
+function MarkdownFooter() {
     return (
         <footer className="footer">
             <small>© 2025 Afssas Development. All rights reserved.</small>
@@ -8,4 +8,4 @@ function Footer(props) {
     );
 }
 
-export default Footer;
+export default MarkdownFooter;

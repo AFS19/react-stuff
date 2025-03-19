@@ -1,16 +1,16 @@
 import './style.css';
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
-import Main from "./Main.jsx";
+import MarkdownHeader from "./MarkdownHeader.jsx";
+import MarkdownFooter from "./MarkdownFooter.jsx";
+import MarkdownMain from "./MarkdownMain.jsx";
 
 function Mardown() {
     return (
         <>
-            <Header />
+            <MarkdownHeader />
 
-            <Main />
+            <MarkdownMain />
 
-            <Footer />
+            <MarkdownFooter />
         </>
     );
 }

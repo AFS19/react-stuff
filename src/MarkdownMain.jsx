@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Main(props) {
+function MarkdownMain(props) {
     return (
         <main className="main">
             <h1>Reasons I'm excited to learn React</h1>
@@ -13,4 +13,4 @@ function Main(props) {
     );
 }
 
-export default Main;
+export default MarkdownMain;

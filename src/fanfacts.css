@@ -1,0 +1,63 @@
+* {
+    font-family: Inter, sans-serif;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 !important;
+}
+
+.fanfacts-navbar {
+    background-color: #1e1f28;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 0;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.fanfacts-logo-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.fanfacts-logo-word {
+    color: #6fd0ea;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fanfacts-main {
+    padding: 0 50px;
+    background-image: url(./assets/react.png);
+    background-size: 700px;
+    background-position-x: 930px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.fanfacts-main-h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.fanfacts-main-list {
+    font-size: 16px;
+    list-style-position: outside;
+}
+
+.fanfacts-main-list-item {
+    padding-block: 10px;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+.fanfacts-main-list-item::marker {
+    color: #6fd0ea;
+    font-size: 1.5rem;
+    line-height: 1;
+}

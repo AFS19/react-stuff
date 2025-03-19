@@ -42,7 +42,7 @@ function myComponent() {
 
 3. What's wrong with this code:
 ```
-function Header() {
+function MarkdownHeader() {
     return (
         <header>
             <img src="./react-logo.png" width="40" alt="My logo" />
@@ -50,6 +50,6 @@ function Header() {
     )
 }
 
-root.render(Header())
+root.render(MarkdownHeader())
 ```
-- When you call a component, you need to use the JSX syntax. So instead of calling ``Header()``, you should call ``<Header />``.
+- When you call a component, you need to use the JSX syntax. So instead of calling ``MarkdownHeader()``, you should call ``<MarkdownHeader />``.
