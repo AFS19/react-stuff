@@ -2,8 +2,6 @@ import whiskerson from './assets/contacts/mr-whiskerson.png';
 import fluffykins from './assets/contacts/fluffykins.png';
 import felix from './assets/contacts/felix.png';
 import pumpkin from './assets/contacts/pumpkin.png';
-import phoneIcon from './assets/contacts/phone-icon.png';
-import mailIcon from './assets/contacts/mail-icon.png';
 import './contacts.css';
 import ContactCard from "./ContactCard.jsx";
 

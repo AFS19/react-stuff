@@ -53,3 +53,40 @@ function MarkdownHeader() {
 root.render(MarkdownHeader())
 ```
 - When you call a component, you need to use the JSX syntax. So instead of calling ``MarkdownHeader()``, you should call ``<MarkdownHeader />``.
+
+**--------------------Props------------------------**
+1. What do props helps us accomplish?
+
+    - Props help us pass data from one component to another. This is how we can make our components dynamic and reusable.
+   
+
+2. How do you pass a prop into a component?
+
+    - You can pass a prop into a component by adding an attribute to the component when you call it. For example, if you have a component called ``MyComponent`` and you want to pass in a prop called ``name``, you would call it like this: ``<MyComponent name="Bob" />``.
+ 
+3. Can I pass a custom prop (e.g. `blahblahblah={true}`)  to a native DOM element? (e.g. `<div blahblahblah={true} />`) why or why not?
+
+    - No, you can't pass custom props to native DOM elements. React only allows you to pass custom props to your own components. If you want to pass a custom prop to a native DOM element, you'll need to wrap that element in a component.
+
+4. Ho do I receive props in a component?
+``` function Navbar() {
+   return (
+       <header>
+           ....
+       </header>
+   )   
+}
+```
+
+- You can receive props in a component by adding a parameter to the component function. This parameter will be an object that contains all the props that were passed into the component. For example, if you have a component called ``Navbar`` and you want to receive a prop called ``title``, you would write the component like this:
+``` 
+function Navbar(props) {
+   return (
+       <header>
+           <h1>{props.title}</h1>
+       </header>
+ ```
+
+5. What data type  is ``props`` when the component receives it?
+
+    - Props is an object. This object contains all the props that were passed into the component.
