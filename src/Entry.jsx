@@ -14,7 +14,7 @@ function Entry() {
                             <img src={marker} alt="Marker"/>
                             <h3>Japan</h3>
                         </div>
-                        <a href="https://www.google.com/maps/place/Mount+Fuji/@35.3606421,138.7170637,15z/data=!3m1!4b1!4m6!3m5!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.3606255!4d138.7273634!16zL20vMGNrczA?entry=ttu"
+                        <a href="https://maps.app.goo.gl/Fg7kmY8tmekjH5As9"
                            target="_blank">
                             View on Google Maps
                         </a>
@@ -44,7 +44,7 @@ function Entry() {
                             <img src={marker} alt="Marker"/>
                             <h3>AUSTRALIA</h3>
                         </div>
-                        <a href="#" target="_blank">View on Google Maps</a>
+                        <a href="https://maps.app.goo.gl/X1881NKdJMPkMECe8" target="_blank">View on Google Maps</a>
                     </div>
 
                     <div className="article-text-content">
@@ -70,7 +70,7 @@ function Entry() {
                             <img src={marker} alt="Marker"/>
                             <h3>NORWAY</h3>
                         </div>
-                        <a href="#" target="_blank">View on Google Maps</a>
+                        <a href="https://maps.app.goo.gl/5eaXn5f5cV7p88MK7" target="_blank">View on Google Maps</a>
                     </div>
 
                     <div className="article-text-content">
