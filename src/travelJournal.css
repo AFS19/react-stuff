@@ -1,0 +1,113 @@
+body {
+    max-width: 100% !important;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #27292c;
+    color: #fff;
+    padding-bottom: 100px !important;
+}
+
+header {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F55A5A;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+header h1 {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+article.journal-entry {
+    max-width: 1248px;
+    margin: 0 auto;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+article.journal-entry img {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+article.journal-entry .article-text {
+    width: 70%;
+    padding: 0 20px;
+}
+
+article.journal-entry .article-text .article-text-location{
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    font-weight: 100;
+}
+
+article.journal-entry .article-text .article-text-location .article-location{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+article.journal-entry .article-text .article-text-location img {
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+}
+
+article.journal-entry .article-text .article-text-location h3 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 6px;
+}
+
+article.journal-entry .article-text .article-text-location a {
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-underline-offset: 6px;
+    color: silver;
+}
+
+article.journal-entry .article-text .article-text-location a:hover {
+    color: #d5d5d5;
+}
+
+article.journal-entry .article-text .article-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article.journal-entry .article-text .article-text-content h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 20px 0 30px 0;
+    letter-spacing: 4px;
+}
+
+article.journal-entry .article-text .article-text-content .article-text-description h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+article.journal-entry .article-text .article-text-content .article-text-description p {
+    max-width: 700px;
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin: 20px 0;
+    line-height: 1.5;
+}
